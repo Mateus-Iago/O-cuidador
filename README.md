@@ -29,7 +29,7 @@ Este projeto propõe um sistema baseado na plataforma ESP32 para auxiliar os ido
 https://wokwi.com/projects/382226065289090049
 
 ## Código Fonte
-
+```cpp
 #include <WiFi.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -175,10 +175,4 @@ void loop() {
   printLocalTime();
   delay(250);
 }
-
-## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues relatando problemas ou sugerindo melhorias. Pull requests também são apreciados.
-
-## Autor
-[Mateus Iago]
 
